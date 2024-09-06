@@ -1,0 +1,141 @@
+.join_cont {
+    background-image: url("../imgs/join-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 350px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.join_info {
+    width: 100%;
+    height: 100%;
+    background-color: #00000070;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+
+@media (max-width: 400px) {
+    .join_cont {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .join_info input {
+        width: 278px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .subsribe_cont {
+        flex-direction: column;
+        padding-left: 33px;
+    }
+
+
+    .join_info button {
+        padding: 13px 12px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .join_cont {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .join_info input {
+        width: 278px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .subsribe_cont {
+        flex-direction: column;
+        padding-left: 33px;
+    }
+
+
+    .join_info button {
+        padding: 13px 12px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .join_cont {
+        width: 476px;
+        height: 350px;
+
+    }
+
+    .join_info input {
+        width: 278px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+
+    .join_info button {
+        padding: 13px 12px;
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1150px) {
+    .join_cont {
+        width: 625px;
+        height: 350px;
+
+    }
+
+    .join_info input {
+        width: 278px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+
+    .join_info button {
+        padding: 13px 12px;
+        width: fit-content;
+        margin: auto;
+    }
+}

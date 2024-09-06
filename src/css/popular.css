@@ -1,0 +1,49 @@
+.pop_card img {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+}
+
+
+.pop_card:hover img {
+    transform: translateY(-110px);
+    -webkit-transform: translateY(-110px);
+    -moz-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    -o-transform: translateY(-110px);
+}
+
+
+.pop_card h3 {
+    margin-top: -80px;
+}
+
+.fruits_cont {
+    width: 950px;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 400px) {
+    .fruits_cont {
+        width: 312px;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .fruits_cont {
+        width: 312px;
+    }
+}
+
+
+
+@media (min-width: 800px) and (max-width: 1150px) {
+    .fruits_cont {
+        width: 780px;
+    }
+}

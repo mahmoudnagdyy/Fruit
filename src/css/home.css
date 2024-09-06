@@ -1,0 +1,94 @@
+.home {
+    margin-top: 150px;
+}
+
+
+.enjoy {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+.homeImg {
+    width: 500px;
+}
+
+
+
+@media (max-width: 400px) {
+    .home {
+        flex-direction: column-reverse;
+        margin-top: 108px;
+    }
+
+    .homeImg {
+        width: 200px;
+    }
+
+    .enjoy {
+        text-align: center;
+        margin-top: 22px;
+        font-size: 48px;
+    }
+
+    .home_p {
+        text-align: center;
+    }
+
+    .home_link {
+        margin: 25px auto 0 auto;
+    }
+}
+
+
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .home {
+        flex-direction: column-reverse;
+        margin-top: 108px;
+    }
+
+    .homeImg {
+        width: 200px;
+    }
+
+    .enjoy {
+        text-align: center;
+        margin-top: 22px;
+        font-size: 48px;
+    }
+
+    .home_p {
+        text-align: center;
+    }
+
+    .home_link {
+        margin: 25px auto 0 auto;
+    }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .home {
+        flex-direction: column-reverse;
+        margin-top: 108px;
+    }
+
+    .homeImg {
+        width: 200px;
+    }
+
+    .enjoy {
+        text-align: center;
+        margin-top: 22px;
+        font-size: 48px;
+    }
+
+    .home_p {
+        text-align: center;
+    }
+
+    .home_link {
+        margin: 25px auto 0 auto;
+    }
+}
